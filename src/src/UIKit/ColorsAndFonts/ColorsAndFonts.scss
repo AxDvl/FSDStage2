@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.content-container{
+	display: flex;
+}
+
 .colorslist{
 	list-style: none;
 	margin-left: 79px;
@@ -67,4 +73,97 @@
 .colorslist_text_bold{
 	font-weight: bold;
 	font-family: Quicksand, "Open Sans";
+}
+
+.uikit_fonts{
+	margin: 48px 0px 0px 435px;
+	width: 403px
+}
+
+.fontslist{
+	list-style: none;
+	padding: 0;
+}
+
+.style-item{
+	display: flex;
+}
+
+.stylecaption{
+	width: 37px;
+	text-align: right;
+	padding-right: 30px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+	text-transform: uppercase;
+	color: rgba(31, 32, 65, 0.25);
+}
+
+.style-h1{
+	
+}
+
+.style-h2{
+	font-size: 19px;
+	line-height: 23px;
+}
+
+.style-h3{
+	font-size: 12px;
+	line-height: 15px;
+}
+
+.style-body{
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: none;
+}
+
+.styledescription-h1{
+	font-family: Quicksand;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 30px;
+	color: #1F2041;
+	width: 336px;
+}
+
+.styledescription-h2{
+	font-family: Quicksand;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 19px;
+	line-height: 24px;
+	width: 282px;
+
+	color: #1F2041;
+}
+
+.styledescription-h3{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	text-transform: uppercase;
+	color: #1F2041;
+	width: 186px;
+}
+
+.styledescription-body{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: rgba(31, 32, 65, 0.75);
+	width: 301px;
+}
+
+.fontslist>li{
+	padding-bottom: 49px;
 }

@@ -7,8 +7,9 @@ html(lang="en")
         title Document
         script(src='./ColorsAndFonts.js')
     body
-        .page_logo
-           img(src='../images/logo.svg')
+      .page_logo
+         img(src='../images/logo.svg')
+      .content-container
         .uikit_colorslist
           ul.colorslist
             mixin ColorListItem(colorcls, opacitycls, caption, color)
@@ -25,3 +26,21 @@ html(lang="en")
             +ColorListItem("color-dark-shade", "opacity-5",  'Dark Shade 5%', "#1F2041")
             +ColorListItem("color-purple", "opacity-100", 'Purple', "#BC9CFF")
             +ColorListItem("color-green", "opacity-100", 'Green', "#6FCF97")
+        .uikit_fonts
+            ul.fontslist
+                li
+                   .style-item
+                     .stylecaption.style-h1 h1
+                     .styledescription-h1 This one is the sub-section or widget title
+                li
+                   .style-item
+                     .stylecaption.style-h2 h2
+                     .styledescription-h2 Next one is the item title inside widgets
+                li
+                   .style-item
+                     .stylecaption.style-h3 h3
+                     .styledescription-h3 This is a label or CTA text
+                li
+                   .style-item
+                     .stylecaption.style-body Body
+                     .styledescription-body This is the body text which is used for most of the design, like paragraphs, lists, etc.
