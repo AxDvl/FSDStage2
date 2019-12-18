@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+.colorslist {
+  list-style: none;
+  margin-left: 79px;
+  margin-top: 63px;
+}
+
+.colorslist > li {
+  padding-bottom: 19px;
+}
+
+.colorslist_example {
+  width: 70px;
+  height: 70px;
+  border-radius: 6px;
+  padding-bottom: 1px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.color-dark-shade {
+  background-color: #1F2041;
+}
+
+.color-purple {
+  background-color: #BC9CFF;
+}
+
+.color-green {
+  background-color: #6FCF97;
+}
+
+.opacity-75 {
+  opacity: 75%;
+}
+
+.opacity-50 {
+  opacity: 50%;
+}
+
+.opacity-25 {
+  opacity: 25%;
+}
+
+.opacity-5 {
+  opacity: 5%;
+}
+
+.colorslist_textcontainer {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 40px;
+}
+
+.colorslist_text {
+  list-style: none;
+  padding: 0;
+  color: #1F2041;
+  font-family: Quicksand, "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 29px;
+}
+
+.colorslist_text_bold {
+  font-weight: bold;
+  font-family: Quicksand, "Open Sans";
+}
+
+/*# sourceMappingURL=/ColorsAndFonts.1eeb7be5.css.map */

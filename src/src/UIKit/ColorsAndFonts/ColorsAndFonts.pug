@@ -1,0 +1,27 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Document
+        script(src='./ColorsAndFonts.js')
+    body
+        .page_logo
+           img(src='../images/logo.svg')
+        .uikit_colorslist
+          ul.colorslist
+            mixin ColorListItem(colorcls, opacitycls, caption, color)
+              li
+                div(class="colorslist_example "+colorcls+" "+opacitycls)
+                .colorslist_textcontainer
+                   ul.colorslist_text
+                      li.colorslist_text_bold= caption
+                      li= color 
+            +ColorListItem("color-dark-shade", "opacity-100", 'Dark Shade 100%', "#1F2041")
+            +ColorListItem("color-dark-shade", "opacity-75", 'Dark Shade 75%', "#1F2041")
+            +ColorListItem("color-dark-shade", "opacity-50", 'Dark Shade 50%', "#1F2041")
+            +ColorListItem("color-dark-shade", "opacity-25", 'Dark Shade 25%', "#1F2041")
+            +ColorListItem("color-dark-shade", "opacity-5",  'Dark Shade 5%', "#1F2041")
+            +ColorListItem("color-purple", "opacity-100", 'Purple', "#BC9CFF")
+            +ColorListItem("color-green", "opacity-100", 'Green', "#6FCF97")
