@@ -72,5 +72,89 @@ h3 {
   height: 50px;
   clear: both;
 }
+.content {
+  display: flex;
+}
 
-/*# sourceMappingURL=/main.1f19ae8e.css.map */
+.content_color-box {
+  margin: 65px 0px 0 119px;
+}
+
+.content_spacer {
+  width: 397px;
+}
+
+.content_font-box {
+  margin-top: 65px;
+}
+.color-box {
+  height: 610px;
+  width: 300px;
+}
+
+.color-box__item-position {
+  margin-bottom: 20px;
+}
+.color-box__presentation {
+  width: 70px;
+  height: 70px;
+  border-radius: 6px;
+}
+.color-box__description {
+  color: #1F2041;
+  font-family: Quicksand, "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 29px;
+}
+
+.color-box__highlighted-text {
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  font-stretch: ultra-expanded;
+}
+.color-box__item {
+  display: flex;
+  align-items: center;
+}
+
+.color-box__description-position {
+  margin-left: 40px;
+}
+.font-box {
+  height: 320px;
+  width: 402px;
+}
+
+.font-box__item-position {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 49px;
+}
+.font-box__presentation {
+  width: 37px;
+}
+
+.font-box__presentation-text {
+  color: rgba(31, 32, 65, 0.25);
+  text-align: right;
+}
+.font-box_description {
+  max-width: 200px;
+  height: 250px;
+}
+
+.textwrapper {
+  width: 332px;
+}
+.font-box__item {
+  display: flex;
+}
+
+.font-box__delimiter {
+  width: 30px;
+}
+
+/*# sourceMappingURL=/colors-and-types.cd063ae4.css.map */

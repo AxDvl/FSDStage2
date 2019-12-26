@@ -1,0 +1,7 @@
+mixin font-box__item(caption, text)
+    .font-box__item
+        include ../__presentation/font-box__presentation.pug
+        include ../__description/font-box__description.pug
+        +font-box__presentation(caption)
+        .font-box__delimiter
+        +font-box__description(text)

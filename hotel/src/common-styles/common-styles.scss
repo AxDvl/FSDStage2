@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+$color-dark-100:    #1F2041;
+$color-dark-75:  rgba(31, 32, 65, 0.75);
+$color-dark-50:  rgba(31, 32, 65, 0.50);
+$color-dark-25:  rgba(31, 32, 65, 0.25);
+$color-dark-5:    rgba(31, 32, 65, 0.05);
+$color-purple:    #BC9CFF;
+$color_green:      #6FCF97; 
+
+body{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: $color-dark-75; 
+}
+
+h1{
+	font-family: Quicksand;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 30px;
+	color: $color-dark-100;
+}
+
+h2{
+	font-family: Quicksand;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 19px;
+	line-height: 24px;
+	color: $color-dark-100;
+}
+
+h3{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	text-transform: uppercase;
+	color: $color-dark-100;
+}
+
+.color_dark-shade-100{
+	background-color: $color-dark-100;
+}
+
+.color_dark-shade-75{
+	background-color: $color-dark-75;
+}
+
+.color_dark-shade-50{
+	background-color: $color-dark-50;
+}
+
+.color_dark-shade-25{
+	background-color: $color-dark-25;
+}
+
+.color_dark-shade-5{
+	background-color: $color-dark-5;
+}
+
+.color_purple{
+	background-color: $color-purple;
+}
+
+.color_green{
+	background-color: $color_green;
+}
+
+.logo{
+	background-image: url("../images/Logo.svg");
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+	clear: both;
+}

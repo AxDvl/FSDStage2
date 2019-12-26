@@ -1,0 +1,1 @@
+import './color-box__description.scss';

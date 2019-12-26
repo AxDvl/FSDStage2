@@ -1,0 +1,7 @@
+mixin color-box__item(caption, code, colorclass)
+  .color-box__item
+    include ../__presentation/color-box__presentation.pug
+    include ../__description/color-box__description.pug
+    +color-box__presentation(colorclass)
+    .color-box__description-position
+      +color-box__description(caption, code)

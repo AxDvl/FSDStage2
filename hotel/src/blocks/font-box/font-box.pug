@@ -1,0 +1,12 @@
+mixin font-box
+  include __item/font-box__item.pug
+  .font-box
+    h1.font-box__item-position      
+        +font-box__item("H1", "This one is the sub-section or widget title")
+    h2.font-box__item-position      
+        +font-box__item("H2", "Next one is the item title inside widgets")
+    h3.font-box__item-position      
+        +font-box__item("H3", "This is a label or CTA text")
+    .font-box__item-position      
+        +font-box__item("Body", "This is the body text which is used for most of the design, like paragraphs, lists, etc.")
+

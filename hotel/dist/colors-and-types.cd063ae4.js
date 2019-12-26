@@ -184,23 +184,111 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"C:/Users/днс/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"main.scss":[function(require,module,exports) {
+},{"./bundle-url":"C:/Users/днс/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"common-styles/common-styles.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"C:/Users/днс/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"common-styles/common-styles.scss":[function(require,module,exports) {
+},{"./..\\images\\Logo.svg":[["Logo.e0456b4e.svg","images/Logo.svg"],"images/Logo.svg"],"_css_loader":"C:/Users/днс/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"pages/uikit/colors-and-types/index.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\images\\Logo.svg":[["Logo.e0456b4e.svg","images/Logo.svg"],"images/Logo.svg"],"_css_loader":"C:/Users/днс/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"main.js":[function(require,module,exports) {
+},{"_css_loader":"C:/Users/днс/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"blocks/color-box/color-box.scss":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"C:/Users/днс/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"blocks/color-box/__presentation/color-box__presentation.scss":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"C:/Users/днс/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"blocks/color-box/__presentation/color-box__presentation.js":[function(require,module,exports) {
 "use strict";
 
-require("./main.scss");
+require("./color-box__presentation.scss");
+},{"./color-box__presentation.scss":"blocks/color-box/__presentation/color-box__presentation.scss"}],"blocks/color-box/__description/color-box__description.scss":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
 
-require("./common-styles/common-styles.scss");
-},{"./main.scss":"main.scss","./common-styles/common-styles.scss":"common-styles/common-styles.scss"}],"C:/Users/днс/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"C:/Users/днс/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"blocks/color-box/__description/color-box__description.js":[function(require,module,exports) {
+"use strict";
+
+require("./color-box__description.scss");
+},{"./color-box__description.scss":"blocks/color-box/__description/color-box__description.scss"}],"blocks/color-box/__item/color-box__item.scss":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"C:/Users/днс/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"blocks/color-box/__item/color-box__item.js":[function(require,module,exports) {
+"use strict";
+
+require("./color-box__item.scss");
+},{"./color-box__item.scss":"blocks/color-box/__item/color-box__item.scss"}],"blocks/color-box/color-box.js":[function(require,module,exports) {
+"use strict";
+
+require("./color-box.scss");
+
+require("./__presentation/color-box__presentation.js");
+
+require("./__description/color-box__description.js");
+
+require("./__item/color-box__item.js");
+},{"./color-box.scss":"blocks/color-box/color-box.scss","./__presentation/color-box__presentation.js":"blocks/color-box/__presentation/color-box__presentation.js","./__description/color-box__description.js":"blocks/color-box/__description/color-box__description.js","./__item/color-box__item.js":"blocks/color-box/__item/color-box__item.js"}],"blocks/font-box/font-box.scss":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"C:/Users/днс/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"blocks/font-box/__presentation/font-box__presentation.scss":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"C:/Users/днс/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"blocks/font-box/__presentation/font-box__presentation.js":[function(require,module,exports) {
+"use strict";
+
+require("./font-box__presentation.scss");
+},{"./font-box__presentation.scss":"blocks/font-box/__presentation/font-box__presentation.scss"}],"blocks/font-box/__description/font-box__description.scss":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"C:/Users/днс/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"blocks/font-box/__description/font-box__description.js":[function(require,module,exports) {
+"use strict";
+
+require("./font-box__description.scss");
+},{"./font-box__description.scss":"blocks/font-box/__description/font-box__description.scss"}],"blocks/font-box/__item/font-box__item.scss":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"C:/Users/днс/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"blocks/font-box/__item/font-box__item.js":[function(require,module,exports) {
+"use strict";
+
+require("./font-box__item.scss");
+},{"./font-box__item.scss":"blocks/font-box/__item/font-box__item.scss"}],"blocks/font-box/font-box.js":[function(require,module,exports) {
+"use strict";
+
+require("./font-box.scss");
+
+require("./__presentation/font-box__presentation.js");
+
+require("./__description/font-box__description.js");
+
+require("./__item/font-box__item.js");
+},{"./font-box.scss":"blocks/font-box/font-box.scss","./__presentation/font-box__presentation.js":"blocks/font-box/__presentation/font-box__presentation.js","./__description/font-box__description.js":"blocks/font-box/__description/font-box__description.js","./__item/font-box__item.js":"blocks/font-box/__item/font-box__item.js"}],"pages/uikit/colors-and-types/index.js":[function(require,module,exports) {
+"use strict";
+
+require("./../../../common-styles/common-styles.scss");
+
+require("./index.scss");
+
+require("./../../../blocks/color-box/color-box");
+
+require("./../../../blocks/font-box/font-box");
+},{"./../../../common-styles/common-styles.scss":"common-styles/common-styles.scss","./index.scss":"pages/uikit/colors-and-types/index.scss","./../../../blocks/color-box/color-box":"blocks/color-box/color-box.js","./../../../blocks/font-box/font-box":"blocks/font-box/font-box.js"}],"C:/Users/днс/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -404,5 +492,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["C:/Users/днс/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","main.js"], null)
-//# sourceMappingURL=/main.1f19ae8e.js.map
+},{}]},{},["C:/Users/днс/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","pages/uikit/colors-and-types/index.js"], null)
+//# sourceMappingURL=/colors-and-types.cd063ae4.js.map

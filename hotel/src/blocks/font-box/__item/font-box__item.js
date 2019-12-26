@@ -1,0 +1,1 @@
+import './font-box__item.scss';
